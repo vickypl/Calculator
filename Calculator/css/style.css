@@ -1,0 +1,60 @@
+.body {
+    background: linear-gradient(to right, #7f7fd5, #86a8e7, #91eae4);
+    border-width: 100px;
+}
+.title {
+    border: solid;
+    font-size: 40px;
+    font-weight: 700;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+.title:hover {
+    color: blue;
+}
+.main {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 6px;
+    font-size: 500%;
+    border-radius: 10px;
+    margin: 1% auto;
+    height: 150px;
+    width: 79%;
+    background-color: white;
+    border: solid;
+    border-color: black;
+}
+.buttons {
+    margin: auto 10%;
+}
+/* .buttons {
+    margin-top: 40px;
+    border-radius: 10px;
+    margin: auto;
+    width: 60%;
+    height: 350px;
+    border: solid;
+    background: linear-gradient(to right, #1e9600, #fff200, #ff0000);
+} */
+.calc_btn {
+    width: 100%;
+    height: 100px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+    color: rgb(60, 0, 255);
+    border-radius: 10px;
+    border-color: black;
+    background: linear-gradient(to right, #00f260, #0575e6);
+}
+.calc_btn:hover {
+    color: white;
+    border-color: red;
+    background: linear-gradient(to right, #0575e6, #00f260);
+}
+.table {
+    border-width: 10px;
+    margin: auto;
+    border-top: 10px;
+    border-left: 10px;
+    border-right: 10px;
+}
